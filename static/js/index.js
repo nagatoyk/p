@@ -170,7 +170,7 @@ var $ = function(win, $) {
 				} else if (url[0] == 'login') {
 					P.login()
 				} else if (url[0] == 'up') {
-					$('box').innerHTML = '<div id="up"><iframe src="box.htm#!https://yuki-yukimax.rhcloud.com/p/train.htm" scrolling="no" allowtransparency="true"></iframe><ul id="up-list"></ul></div>';
+					$('box').innerHTML = '<div id="up"><iframe src="box.html#!https://yuki-yukimax.rhcloud.com/p/train.html" scrolling="no" allowtransparency="true"></iframe><ul id="up-list"></ul></div>';
 					$('new').innerHTML = $('more').innerHTML = ''
 				}
 				if (!window.onpopstate) {
